@@ -4,7 +4,6 @@ namespace Drupal\siteinfo\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
-use Drupal\examples\Utility\DescriptionTemplateTrait;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
