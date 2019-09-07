@@ -1,0 +1,7 @@
+siteinfo.pageinfo:
+  path: '/page_json/{param1}/{param2}'
+  defaults:
+    _controller: '\Drupal\siteinfo\Controller\SiteinfoJsonController::pageinfo'
+    param2: 'support-request'
+  requirements:
+    _permission: 'access json page'
